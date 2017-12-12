@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="GCI-89" />
+        <module name="openmrs-404-error" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="GCI-89" target="1.5" />
+      <module name="openmrs-404-error" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

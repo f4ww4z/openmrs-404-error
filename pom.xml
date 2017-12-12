@@ -1,10 +1,10 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.openmrs</groupId>
-  <artifactId>GCI-89</artifactId>
+  <artifactId>openmrs-404-error</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>GCI-89 Maven Webapp</name>
+  <name>openmrs-404-error Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -18,10 +18,17 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>com.openshift</groupId>
+      <artifactId>openshift-java-client</artifactId>
+      <version>2.7.0.Final</version>
+    </dependency>
+
   </dependencies>
 
   <build>
-    <finalName>GCI-89</finalName>
+    <finalName>openmrs-404-error</finalName>
 
     <plugins>
       <plugin>
